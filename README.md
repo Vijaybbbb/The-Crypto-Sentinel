@@ -1,4 +1,6 @@
 # Crypto Sentinel Backend
+-Hosted to aws http://13.51.158.44:3000
+
 ## Features
 
 - RESTful API for alert management
@@ -34,6 +36,14 @@ src/
 - Built test suites
 - Used AI to implement security in Express.js and to create custom error-handling middleware
 - Created a well-structured README file and Docker files
+
+
+## AWS Live Endpoints
+
+- **POST** – http://13.51.158.44:3000/alerts – Create Alert  
+- **GET** – http://13.51.158.44:3000/alerts – Get All Alerts  
+- **DELETE** – http://13.51.158.44:3000/alerts/:id – Delete Alert
+
 
 
 
